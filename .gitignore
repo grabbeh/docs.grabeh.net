@@ -28,10 +28,8 @@ build/Release
 
 # Dependency directories
 /node_modules
-/graphql/compiled
-/data/compiled
-/config
-/static/fonts
+
+/.docz
 package-lock.json
 
 jspm_packages
