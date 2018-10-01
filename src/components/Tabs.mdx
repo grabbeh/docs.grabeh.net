@@ -1,0 +1,30 @@
+---
+name: Tabs
+menu: Components
+---
+
+import {Playground} from 'docz'
+import Tabs from './Tabs'
+import Tab from './Tab'
+import TabList from './TabList'
+import TabPanels from './TabPanels'
+import ClearFix from './ClearFix'
+import Box from './Box'
+
+# Tabs
+
+## Basic usage
+
+<Playground>
+  <Tabs>
+    <TabList>
+      <Tab>Option 1</Tab>
+      <Tab>Option 2</Tab>
+    </TabList>
+    <ClearFix />
+    <TabPanels>
+      <Box>Wowee</Box>
+      <Box>Not so Wowee</Box>
+    </TabPanels>
+  </Tabs>
+</Playground>

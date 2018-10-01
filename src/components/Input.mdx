@@ -1,0 +1,22 @@
+---
+name: Input
+menu: Components
+---
+
+import {Playground} from 'docz'
+import Input from './Input'
+import Box from './Box'
+import { ThemeProvider} from 'styled-components'
+import theme from '../theme'
+
+# Input
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <Box>
+      <Input label="First name"/>
+    </Box>
+  </ThemeProvider>
+</Playground>

@@ -1,0 +1,187 @@
+{
+  "config": {
+    "title": "Design system",
+    "description": "Design system madness",
+    "themeConfig": {},
+    "ordering": "descending",
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "src": "./src",
+    "indexHtml": "./index.html",
+    "theme": "../../theme/src/"
+  },
+  "entries": {
+    "home.mdx": {
+      "name": "Home",
+      "route": "/",
+      "id": "edff5cdc608ae7f88dbe5f89ec337d93",
+      "filepath": "home.mdx",
+      "link": null,
+      "slug": "home",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "home",
+          "value": "Home"
+        }
+      ]
+    },
+    "theme.mdx": {
+      "name": "Theme",
+      "route": "/theme",
+      "id": "818c0ed5244ed18d8b9482693538c400",
+      "filepath": "theme.mdx",
+      "link": null,
+      "slug": "theme",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "theme",
+          "value": "Theme"
+        }
+      ]
+    },
+    "components/Box.mdx": {
+      "name": "Box",
+      "menu": "Components",
+      "id": "2b590132813e22c1cb65c08e7b128163",
+      "filepath": "components/Box.mdx",
+      "link": null,
+      "slug": "components-box",
+      "route": "/components-box",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "box",
+          "value": "Box"
+        },
+        {
+          "depth": 2,
+          "slug": "usage",
+          "value": "Usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        }
+      ]
+    },
+    "components/Button.mdx": {
+      "name": "Button",
+      "menu": "Components",
+      "id": "94c04b4e4bd29ffbdeec8755c1a4c04f",
+      "filepath": "components/Button.mdx",
+      "link": null,
+      "slug": "components-button",
+      "route": "/components-button",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
+    "components/Checkbox.mdx": {
+      "name": "Checkbox",
+      "menu": "Components",
+      "id": "d28c54e24763436b5a762bfe6d19ed21",
+      "filepath": "components/Checkbox.mdx",
+      "link": null,
+      "slug": "components-checkbox",
+      "route": "/components-checkbox",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "checkbox",
+          "value": "Checkbox"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
+    "components/Input.mdx": {
+      "name": "Input",
+      "menu": "Components",
+      "id": "b7f02ed6d1f5e34dafd0f8a16785e9cc",
+      "filepath": "components/Input.mdx",
+      "link": null,
+      "slug": "components-input",
+      "route": "/components-input",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "input",
+          "value": "Input"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
+    "components/Select.mdx": {
+      "name": "Select",
+      "menu": "Components",
+      "id": "05b370959a2781521272ccf4222c5ec3",
+      "filepath": "components/Select.mdx",
+      "link": null,
+      "slug": "components-select",
+      "route": "/components-select",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "select",
+          "value": "Select"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
+    "components/Tabs.mdx": {
+      "name": "Tabs",
+      "menu": "Components",
+      "id": "91f56848ebda28a2ec7bcabc82201316",
+      "filepath": "components/Tabs.mdx",
+      "link": null,
+      "slug": "components-tabs",
+      "route": "/components-tabs",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "tabs",
+          "value": "Tabs"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    }
+  }
+}

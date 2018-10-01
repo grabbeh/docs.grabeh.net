@@ -1,0 +1,23 @@
+---
+name: Select
+menu: Components
+---
+
+import {Playground} from 'docz'
+import Select from './Select'
+import Box from './Box'
+
+# Select
+
+## Basic usage
+
+<Playground>
+  <Box>
+    <Select 
+      label="Please select an option"
+      name='select'
+      values={['Yes','No', 'Maybe']}
+      placeholder='Select'
+      options={['Yes','No', 'Maybe']}/>
+  </Box>
+</Playground>
