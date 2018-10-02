@@ -1,0 +1,31 @@
+---
+name: Text
+menu: Components
+---
+
+import { Playground, PropsTable } from 'docz'
+import Box from './CenterBox'
+import Text from './Text'
+import { ThemeProvider } from 'styled-components'
+import theme from '../theme'
+
+# Box
+
+## Usage
+
+Boxes form the basic building blocks of a user interface.
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <Box>
+      <Text>
+      Hello World!
+      </Text>
+  </ThemeProvider>
+</Playground>
+
+## Properties
+
+The below properties can be used to affect the appearance and behaviour of the component.
+
+<PropsTable of={Text} />
