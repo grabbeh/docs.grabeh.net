@@ -1,4 +1,6 @@
 export const imports = {
+  'colors.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "colors" */ 'colors.mdx'),
   'home.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "home" */ 'home.mdx'),
   'theme.mdx': () =>
@@ -15,4 +17,6 @@ export const imports = {
     import(/* webpackPrefetch: true, webpackChunkName: "components-select" */ 'components/Select.mdx'),
   'components/Tabs.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "components-tabs" */ 'components/Tabs.mdx'),
+  'components/Text.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "components-text" */ 'components/Text.mdx'),
 }

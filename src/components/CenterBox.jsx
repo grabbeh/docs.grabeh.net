@@ -1,11 +1,11 @@
 import styled from 'styled-components'
-import { space, width, color, borderRadius } from 'styled-system'
+import { space, width, height, color, borderRadius } from 'styled-system'
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import theme from '../theme'
 
 const StyledBox = styled.div`
-  ${space} ${width} ${color} ${borderRadius};
+  ${space} ${width} ${height} ${color} ${borderRadius};
 `
 
 // To recognise propTypes in docz, we have to create new Box to wrap StyledBox
@@ -34,17 +34,19 @@ Box.propTypes = {
   bg: PropTypes.string,
   /** Width */
   width: numberStringOrArray,
+  /** Height */
+  height: numberStringOrArray,
   /** Margin */
   m: numberStringOrArray,
-    /** Top margin */
+  /** Top margin */
   mt: numberStringOrArray,
-    /** Right margin */
+  /** Right margin */
   mr: numberStringOrArray,
-    /** Bottom margin */
+  /** Bottom margin */
   mb: numberStringOrArray,
-    /** Left margin */
+  /** Left margin */
   ml: numberStringOrArray,
-    /** Horizontal margin */
+  /** Horizontal margin */
   mx: numberStringOrArray,
   /** Vertical margin */
   my: numberStringOrArray,

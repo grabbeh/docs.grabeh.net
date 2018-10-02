@@ -3,7 +3,7 @@ name: Input
 menu: Components
 ---
 
-import {Playground} from 'docz'
+import {Playground, PropsTable} from 'docz'
 import Input from './Input'
 import Box from './Box'
 import { ThemeProvider} from 'styled-components'
@@ -11,7 +11,7 @@ import theme from '../theme'
 
 # Input
 
-## Basic usage
+## Usage
 
 <Playground>
   <ThemeProvider theme={theme}>
@@ -20,3 +20,9 @@ import theme from '../theme'
     </Box>
   </ThemeProvider>
 </Playground>
+
+## Properties
+
+The below properties can be used to affect the appearance and behaviour of the component.
+
+<PropsTable of={Input}/>

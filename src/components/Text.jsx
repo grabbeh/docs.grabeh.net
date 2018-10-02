@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { fontSize, fontWeight, color } from 'styled-system'
+import { fontSize, fontWeight, color, textAlign } from 'styled-system'
 import theme from '../theme'
 
 const StyledText = styled.div`
-  ${fontSize} ${fontWeight} ${color};
+  ${fontSize} ${fontWeight} ${color} ${textAlign};
 `
 
 const Text = ({ children, ...props }) => (
@@ -24,7 +24,7 @@ Text.propTypes = {
   /** Font size */
   fontSize: numberStringOrArray,
   /** Alignment */
-  align: PropTypes.oneOf(['left', 'center', 'right', 'justify']),
+  textAlign: PropTypes.oneOf(['left', 'center', 'right', 'justify']),
   /** Font weight */
   fontWeight: PropTypes.string,
   /** Color */

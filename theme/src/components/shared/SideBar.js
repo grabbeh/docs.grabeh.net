@@ -26,10 +26,16 @@ const Menu = ({ config }) => {
                 </li>
               ))}
               <li className='mt2'>
-                <Link className='black link underline-hover dim' to='/theme'>
+                <Link className='b black link underline-hover dim' to='/colors'>
+                  Colors
+                </Link>
+              </li>
+              <li className='mt2'>
+                <Link className='b black link underline-hover dim' to='/theme'>
                   Theme
                 </Link>
               </li>
+
             </ul>
           </div>
         )
