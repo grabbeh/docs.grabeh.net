@@ -7,7 +7,7 @@ import theme from '../theme'
 export const italic = props => (props.italic ? { fontStyle: 'italic' } : null)
 
 const StyledText = styled.div`
-  ${italic} ${fontSize} ${fontWeight} ${color} ${caps} ${regular} ${bold};
+  ${fontSize} ${fontWeight} ${color};
 `
 
 const Text = ({ children, ...props }) => (
