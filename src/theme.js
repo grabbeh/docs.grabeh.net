@@ -3,8 +3,8 @@ const theme = {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fontSizes: [12, 16, 20, 24, 36, 48, 80, 96],
   fontWeights: {
-    regular,
-    bold
+    regular: 400,
+    bold: 600
   },
   borderWidths: [0, 1, 2, 4, 8, 16, 32],
   radii: [0, 2, 4, 16, 9999, '100%'],
