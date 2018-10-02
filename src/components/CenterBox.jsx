@@ -8,7 +8,7 @@ const StyledBox = styled.div`
   ${space} ${width} ${color} ${borderRadius};
 `
 
-// To recognise propTypes, we have to create new Box to wrap StyledBox
+// To recognise propTypes in docz, we have to create new Box to wrap StyledBox
 const Box = ({ children, ...props }) => (
   <StyledBox {...props}>{children}</StyledBox>
 )
