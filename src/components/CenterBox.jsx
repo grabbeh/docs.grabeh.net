@@ -7,6 +7,8 @@ import theme from '../theme'
 const StyledBox = styled.div`
   ${space} ${width} ${color} ${borderRadius};
 `
+
+// To recognise propTypes, we have to create new Box to wrap StyledBox
 const Box = ({ children, ...props }) => (
   <StyledBox {...props}>{children}</StyledBox>
 )
@@ -26,25 +28,41 @@ const numberStringOrArray = PropTypes.oneOfType([
 ])
 
 Box.propTypes = {
+  /** Text color */
   color: PropTypes.string,
+  /** Background color */
   bg: PropTypes.string,
+  /** Width */
   width: numberStringOrArray,
+  /** Width */
   w: numberStringOrArray,
   /** Margin */
   m: numberStringOrArray,
+    /** Top margin */
   mt: numberStringOrArray,
+    /** Right margin */
   mr: numberStringOrArray,
+    /** Bottom margin */
   mb: numberStringOrArray,
+    /** Left margin */
   ml: numberStringOrArray,
+    /** Horizontal margin */
   mx: numberStringOrArray,
+  /** Vertical margin */
   my: numberStringOrArray,
   /** Padding */
   p: numberStringOrArray,
+  /** Top padding */
   pt: numberStringOrArray,
+  /** Right padding */
   pr: numberStringOrArray,
+  /** Bottom padding */
   pb: numberStringOrArray,
+  /** Left padding */
   pl: numberStringOrArray,
+  /** Horizontal padding */
   px: numberStringOrArray,
+  /** Vertical padding */
   py: numberStringOrArray,
   /** Border radius */
   borderRadius: PropTypes.number
