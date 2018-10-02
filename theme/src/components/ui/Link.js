@@ -1,7 +1,11 @@
 import React from 'react'
 
-const Link = ({ children }) => (
-  <a className='link black hover-underline'>{children}</a>
-)
+const Link = props => {
+  return (
+    <a href={props.href} className='underline link'>
+      {props.children}
+    </a>
+  )
+}
 
 export default Link
