@@ -59,8 +59,4 @@ Text.defaultProps = {
   theme: theme
 }
 
-Text.span = Text.withComponent('span')
-Text.p = Text.withComponent('p')
-Text.s = Text.withComponent('s')
-
 export default Text
