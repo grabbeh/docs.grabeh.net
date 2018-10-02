@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { fontSize, space, color } from 'styled-system'
+import { fontSize, color } from 'styled-system'
 import theme from '../theme'
 
 export const caps = props =>
