@@ -19,7 +19,7 @@ export const bold = props =>
 export const italic = props => (props.italic ? { fontStyle: 'italic' } : null)
 
 const StyledText = styled.div`
-  ${italic} ${fontSize} ${space} ${color} ${caps} ${regular} ${bold} ${align};
+  ${italic} ${fontSize} ${space} ${color} ${caps} ${regular} ${bold};
 `
 
 const Text = ({ children, ...props }) => (
