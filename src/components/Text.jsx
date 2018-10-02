@@ -4,8 +4,6 @@ import PropTypes from 'prop-types'
 import { fontSize, fontWeight, color } from 'styled-system'
 import theme from '../theme'
 
-export const italic = props => (props.italic ? { fontStyle: 'italic' } : null)
-
 const StyledText = styled.div`
   ${fontSize} ${fontWeight} ${color};
 `
