@@ -33,10 +33,7 @@ Box.propTypes = {
   /** Background color */
   bg: PropTypes.string,
   /** Width */
-  width: numberStringOrArray,
-  /** Width */
-  w: numberStringOrArray,
-  /** Margin */
+  ...width.propTypes,
   m: numberStringOrArray,
     /** Top margin */
   mt: numberStringOrArray,
