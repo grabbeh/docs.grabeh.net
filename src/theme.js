@@ -2,6 +2,10 @@ const theme = {
   breakpoints: [32, 48, 64],
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fontSizes: [12, 16, 20, 24, 36, 48, 80, 96],
+  fontWeights: {
+    regular,
+    bold
+  },
   borderWidths: [0, 1, 2, 4, 8, 16, 32],
   radii: [0, 2, 4, 16, 9999, '100%'],
   typeface: {
