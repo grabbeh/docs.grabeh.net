@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { fontSize, color } from 'styled-system'
+import { fontSize, fontWeight, color } from 'styled-system'
 import theme from '../theme'
 
 export const caps = props =>
@@ -20,7 +20,7 @@ export const bold = props =>
 export const italic = props => (props.italic ? { fontStyle: 'italic' } : null)
 
 const StyledText = styled.div`
-  ${italic} ${fontSize} ${color} ${caps} ${regular} ${bold};
+  ${italic} ${fontSize} ${fontWeight} ${color} ${caps} ${regular} ${bold};
 `
 
 const Text = ({ children, ...props }) => (
