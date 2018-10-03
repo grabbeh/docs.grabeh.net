@@ -7,7 +7,7 @@ const Menu = ({ config }) => {
       {({ docs }) => {
         const menuDocs = docs.filter(doc => doc.menu)
         return (
-          <div className='br bw1 b--black-20 vh-100 w-15 fl'>
+          <div className='br bw1 b--black-20 w-15 fl'>
             <ul className='pa3 list'>
               <li className='mb2'>
                 <Link to='/' className='b black link underline-hover dim'>
