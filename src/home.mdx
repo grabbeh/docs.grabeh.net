@@ -6,8 +6,17 @@ route: /
 # Home
 
 This site demonstrates some basic components that I use to put together websites. Components can be configured using props that are listed
-in a table below each sample component. In lieu of specific properties, most components have certain defaults to match a style I've used previously on a site.
+in a table below each component. In lieu of specific properties, most components have certain defaults to match a style I've used previously on a site.
 
-You can manually edit the code for each component to play around and see what happens.
+The goal of this is to a) allow consistency of visual appearance (through the default properties) whilst b) allowing quick development of displays 
+through closer alignment of the properties affecting a particular component  with the component itself (rather than having to deal with separate CSS files). 
+Another benefit is that the visual appearance of a component can be defined in more layperson's terms rather than having to track specific CSS properties. 
+This in turn should mean that non-developers can more easily become involved in coding interfaces directly rather than using design tools (this is a
+goal of [Framer X](https://framer.com/) also).
 
-It uses [styled-system](https://jxnblk.com/styled-system), [styled-components](https://www.styled-components.com/) and [tachyons-system](https://github.com/tachyons-css/tachyons-system) under the hood together with [Docz](https://www.docz.site/) (with a custom theme).
+The code for each component can be updated on each page and will re-render straightaway to show you the changes in visual appearance brought 
+about by the change in code. To me, this is really powerful.
+
+It uses [styled-system](https://jxnblk.com/styled-system), [styled-components](https://www.styled-components.com/) and [tachyons-system](https://github.com/tachyons-css/tachyons-system) 
+under the hood together with [Docz](https://www.docz.site/) (with a custom theme) to make displaying the components much easier. Some of components use [Tachyons](https://tachyons.io) 
+classnames directly rather than styled-system but I'm in the process of transitioning all components to use styled-system.
